@@ -148,7 +148,7 @@ img, video, audio, iframe, table, form {
   content: ".";
   display: block;
   clear: both;
-  visibility: hidden;
+  visibility: visible;
   height: 0;
   line-height: 0;
 }
@@ -197,10 +197,11 @@ img, video, audio, iframe, table, form {
 /*/////// SOCIAL ////////*/
 
 #social {
+  display: inline;
   position: fixed;
   top: 163px;
   right: 20px;
-  width: 40px;
+  /*width: 40px;*/
   z-index: 2;
 }
 
@@ -210,7 +211,7 @@ img, video, audio, iframe, table, form {
   height: 40px;
   text-indent: 100%;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: hidden
 }
 
 a.fbook, a.twit, a.gplus {
